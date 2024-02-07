@@ -1,15 +1,87 @@
 body{
     display: contents;
 }
+/* Section 1 - main content*/
 .section-one{
     background-color: #1F2937;
     color: #FFF;
 }
 
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 0px 100px;
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.container-two {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 36px;
+}
+
+.container-two > *{
+    flex-basis: 100%;
+    padding: 16px;
+}
+
+.container-two > .placeholder{
+    background-color: darkgray;
+    text-align: center;
+    padding: 15%;
+}
+
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-button{
+    font-size: 18px;
+    padding: 5px 15px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+/* Section 2 - 4 cards with subtext*/
 .section-two{
 
 }
 
+/* Section 3 - quote */
 .section-three{
     display: flex;
     flex-direction: column;
@@ -34,4 +106,14 @@ body{
     margin-right: 75px;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* Section 4 - footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
 }
